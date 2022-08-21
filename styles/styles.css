@@ -33,9 +33,13 @@ header{
 .header-nav{
   display: flex;
 }
-.nav-link{
+
+.nav-link-head{
   text-decoration: none;
+  color: rgb(255, 255, 255);
 }
+
+
 a{
   text-decoration: none;
   color: black;
@@ -44,6 +48,7 @@ a{
 nav a{
   font-weight: 600;
   padding-right: 10px;
+  color: black;
 }
 
 .logo{
