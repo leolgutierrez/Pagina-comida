@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');/* font-family: 'Roboto', sans-serif; */
+
 
 .fuente-subtitulo{
   font-family: 'Cairo', sans-serif;
@@ -7,7 +9,8 @@
 }
 .Titulo-pantalla{
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
 }
 
 *{
@@ -146,6 +149,8 @@ footer{
 
 .grid-locales{
   display: grid;
+  border-radius: 15px 50px 30px 5px;
+  background-color: rgb(178, 226, 169);
   grid-template-areas:
   "local-imagen local-nombre"
   "local-imagen local-descripcion";
@@ -154,7 +159,7 @@ footer{
   grid-template-columns: 1fr auto;
 
   margin-bottom: 10px;
-
+  padding: 1%;
 
 }
 
