@@ -39,7 +39,7 @@ header{
 
 .nav-link-head{
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 
@@ -167,7 +167,9 @@ footer{
   grid-area: local-imagen;
   height: 200px;
   width: 200px;
-
+  margin-right: 50px;
+  border-radius: 25px;
+  border: 4px solid #000000;
 }
 .grid-locales-nombre{
   grid-area: local-nombre;
