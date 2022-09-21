@@ -185,4 +185,31 @@ footer{
 
 
 
+.grid-productos-producto{
+  display: grid;
+  border-radius: 25px;
+  background-color: rgb(178, 226, 169);
+  grid-template-areas:
+  "producto-titulo producto-imagen"
+  "producto-precio producto-imagen";
 
+  grid-template-rows: auto auto; 
+  grid-template-columns: 1fr auto;
+
+  margin-bottom: 10px;
+  padding: 1%;
+
+}
+/*tipo estructura-pagina-nombre del grid- parte del grid  */
+.grid-productos-producto-imagen{
+  grid-area: producto-imagen;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+.grid-productos-producto-precio{
+  grid-area: producto-precio;
+}
+.grid-productos-producto-titulo{
+  grid-area: producto-titulo;
+}
